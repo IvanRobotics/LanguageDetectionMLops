@@ -3,6 +3,8 @@ Go to window command prompt:
 
 docker login 
 docker image ls
+docker container ls
+docker container stop <container-id>
 docker container prune
 
 How to kill an existing port?
