@@ -1,4 +1,22 @@
+How to Delete Docker Image?
+Go to window command prompt:
 
+docker login 
+docker image ls
+docker container prune
+
+How to kill an existing port?
+
+1. find the PID of the port
+	netstat -ano | findstr :8080
+
+let's say the result return this:
+TCP    0.0.0.0:8080           0.0.0.0:0              LISTENING       16860
+
+2. PID is 16860, so type in the following command:
+kill 16860
+
+ 
 How many folders in total?
 1. ML_DEV_LANGDETECT
 2. app
